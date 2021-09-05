@@ -1,0 +1,56 @@
+
+
+.headerTitles{
+display: flex;
+flex-direction:  column;
+align-items: center;
+font-family: 'Lora', serif;
+color: #444;
+}
+.headerTitleSm
+{
+    position: absolute;
+    top: 68%;
+    font-size: 20px;
+    color:#172F37;
+    font-style: italic;
+}
+.headerTitleLg
+{
+    position: absolute;
+    top: 70%;
+    font-size: 100px;
+}
+.headerImage
+{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.headerImage2
+{
+    display: none;
+}
+@media screen and (max-width: 780px){
+    .headerTitleLg
+{
+    color:#d4af37;
+    top: 29%;
+    font-size: 70px;
+}
+.headerTitleSm
+{
+    top: 26%;
+}
+.headerImage
+{
+    display:none;
+}
+.headerImage2
+{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+}
