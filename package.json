@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://sathyanarayan.netlify.app/",
+  "proxy": "https://sathyanarayan.herokuapp.com/",
   "devDependencies": {
     "favicons-webpack-plugin": "^5.0.2",
     "webpack-pwa-manifest": "^4.3.0"
